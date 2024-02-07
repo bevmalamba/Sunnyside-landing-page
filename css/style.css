@@ -179,6 +179,7 @@ li {
   font-family: var(--primary-font);
   color: var(--black-variant-color);
   margin: 1.5rem 0;
+  
 }
 
 .about__link {
@@ -243,6 +244,7 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  
 }
 
 .expertise--bg-orange {
@@ -250,6 +252,7 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
 }
 
 /* Testimonies */
@@ -379,14 +382,39 @@ li {
 
   .about__title {
     font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
   }
   .about__text {
     font-size: 1.5rem;
+    text-align: center;
+    
+  }
+  .about__link--color-yellow{
+    margin-left: 40%;
+  }
+  .about__link--color-pink{
+    margin-left: 40%;
   }
 
   .about {
     flex-direction: column-reverse;
   }
+  .cerise{
+    flex-direction: column;
+  }
+  .expertise__description {
+    padding: var(--description-padding);
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70%;
+}
+ .expertise__container{
+  flex-direction: column;
+ }
 }
 
 @media screen and (min-width: 1025px) {
@@ -396,4 +424,5 @@ li {
   .nav__hamburger {
     display: none;
   }
+ 
 }
